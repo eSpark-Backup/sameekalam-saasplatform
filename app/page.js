@@ -6,10 +6,8 @@ export default function Home() {
     <div className="main-container">
       <div className="spaceship">
         <Image className="space" src={spaceship} width={1139} height={840} alt="space-ship" />
-        <div style={{ borderRadius: "50%", background: "#00FFE6", filter: "blur(96px)", width: "250px", height: "250px" }} className="shadow-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        </div>
-        <div style={{ zIndex: "-1", borderRadius: "50%", background: "#00FFE6", filter: "blur(20px)", width: "150px", height: "150px" }} className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        </div>
+        <div className="shadow-overlay"></div>
+        <div className="shadow-overlay-circle"></div>
         <Image className="circle" src={circle} width={961} height={961} alt="circle" />
         <div className="heading">
           <Image src={title1} width={701} height={152} alt="title1" />
