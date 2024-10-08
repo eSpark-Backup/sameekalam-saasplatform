@@ -72,9 +72,11 @@ export default function Home() {
           <div style={{ zIndex: "-1", borderRadius: "50%", background: "#00FFE6", filter: "blur(20px)", width: "150px", height: "150px" }} className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           </div>
           <Image className="circle" src={circle} width={961} height={961} alt="circle" />
-          <div className="heading">
-            <Image src={title1} width={701} height={152} alt="title1" />
-            <Image className="heading2" src={title2} width={705} height={140} alt="title2" />
+          <div className="absolute z-[-1] bottom-[160px] lg:left-[100px] xl:left-[-105px] md:left-[250px] left-[420px]">
+            <Image src={title1} width={0} height={0} className="md:w-[701px] w-[300px]" alt="title1" />
+            <Image
+              className="absolute top-[180px] lg:left-[270px] md:w-[701px] w-[300px]"
+              src={title2} width={0} height={0} alt="title2" />
             <p className="title1-no">001</p>
             <p className="title2-no">002</p>
           </div>
