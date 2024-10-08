@@ -59,27 +59,27 @@ export default function Home() {
           </div>
 
 
-          <div className="absolute sm:right-5 xl:z-10 z-0 opacity-30 sm:opacity-100 bottom-20 sm:m-0 m-4">
+          <div className="sm:w-[220px] md:w-[380px] 2xl:w-[493px] absolute sm:right-5 z-10 opacity-30 sm:opacity-100 bottom-20 sm:m-0 m-4">
             <VideoBanner videoBanner={videoBanner} />
           </div>
         </div>
       </div>
       <div className="overflow-hidden w-screen h-screen absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <div className="w-[1139px] h-[840px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <Image className="h-[840px]" src={spaceship} width={1139} height={840} alt="space-ship" />
-          <div className="bg-[url('../assets/spaceship.png')] filter drop-shadow-[0px_0px_0px_#00FFE6] w-[560px] h-[560px] bg-no-repeat bg-center rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-60"></div>
-          <div className="bg-[#00FFE6] filter blur-[20px] w-[150px] h-[150px] z-[-1] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"> </div>
+        <div className="sm:w-[625px] md:w-[790px] 2xl:w-[1139px] sm:h-[auto] 2xl:h-[840px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <Image className="sm:h-[auto] 2xl:h-[840px]" src={spaceship} width={1139} height={840} alt="space-ship" />
+          <div className="bg-[url('../assets/spaceship.png')] filter drop-shadow-[0px_0px_0px_#00FFE6] sm:w-[200px] md:w-[230px] 2xl:w-[560px] sm:h-[200px] md:h-[230px] 2xl:h-[560px] bg-no-repeat bg-center rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-60"></div>
+          <div className="bg-[#00FFE6] filter blur-[20px] sm:w-[80px] 2xl:w-[150px] sm:h-[60px] 2xl:h-[150px] z-[-1] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"> </div>
           <Image className="absolute top-[570px] z-[-5] h-[390px] left-1/2 transform -translate-x-1/2" src={circle} width={961} height={961} alt="circle" />
-          <div className="absolute z-[-1] bottom-[160px] lg:left-[100px] xl:left-[-105px] md:left-[250px] left-[420px]">
-            <Image src={title1} width={0} height={0} className="md:w-[701px] w-[300px]" alt="title1" />
+          <div className="absolute z-[-1] sm:bottom-[80px] 2xl:bottom-[160px] sm:left-[80px] md:left-[50px] md:left-[60px] 2xl:left-[-105px]">
+            <Image src={title1} width={0} height={0} className="2xl:w-[701px] md:w-[350px] sm:w-[200px]" alt="title1" />
             <Image
-              className="absolute top-[180px] lg:left-[270px] md:w-[701px] w-[300px]"
+              className="absolute sm:top-[60px] md:top-[100px] 2xl:top-[180px] 2xl:left-[270px] sm:left-[150px]"
               src={title2} width={0} height={0} alt="title2" />
             <p className="absolute top-0 left-[-50px] leading-[15px] text-[24px] font-medium text-[#FFFFFF4D] z-[11]">001</p>
-            <p className="absolute top-[180px] left-[215px] leading-[15px] text-[24px] font-medium text-[#FFFFFF4D] z-[11]">002</p>
+            <p className="absolute sm:top-[60px] md:top-[100px] 2xl:top-[180px] sm:left-[95px] 2xl:left-[215px] leading-[15px] text-[24px] font-medium text-[#FFFFFF4D] z-[11]">002</p>
           </div>
         </div>
-        <Image className="absolute top-[25%] left-[20%]" src={click} width={105} height={105} alt="click" />
+        <Image className="sm:w-[60px] md:w-[105px] sm:h-[60px] md:h-[105px]  absolute sm:top-40 md:top-60 sm:left-[10%] md:left-[20%]" src={click} width={105} height={105} alt="click" />
       </div >
     </>
   );
