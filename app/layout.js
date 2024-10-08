@@ -2,8 +2,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const Terminus = localFont({
-  src: "./fonts/Terminus.woff"
-})
+  src: "./fonts/Terminus.woff",
+});
 
 
 export const metadata = {
@@ -13,11 +13,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={Terminus.className}>
       <body
-        className={Terminus.className}
       >
+        <div>
         {children}
+        </div>
       </body>
     </html>
   );
