@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <>
-      <div>
+      <div className="relative">
         <Navbar />
         <div className="bg-black h-screen relative">
           <div className="absolute left-5 top-40">
