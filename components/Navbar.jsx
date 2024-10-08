@@ -7,18 +7,18 @@ import twitter from "@/assets/twitter.svg"
 import Navitem from "./Navitem";
 const Navbar = () => {
   return (
-    <div className="m-7 flex h-[69px]">
-      <div style={{ border: "0.5px solid #FFFFFF33" }} className="w-[40%] md:w-[35%] 2xl:w-[45%] flex">
+    <div className="my-7 mx-5 flex h-[69px]">
+      <div style={{ border: "0.5px solid #FFFFFF33" }} className="w-[40%] md:w-[35%] 2xl:w-[40%] flex">
         <div className="lg:w-[20%] xl:w-[15%] md:w-[25%] 2xl:w-[10%] flex justify-center items-center">
           <Image src={logo} alt="Logo" />
         </div>
         <div className="lg:w-[80%] xl:w-[85%] md:w-[75%] 2xl:w-[90%] flex bg-[#FFFFFF1A]">
-          <div className="w-[25%] bg-[#00FFE6]"></div>
+          <div className="w-[20%] bg-[#00FFE6]"></div>
         </div>
 
       </div>
 
-      <div style={{ border: "1px solid #FFFFFF1A" }} className="w-[60%] md:w-[65%] 2xl:w-[55%] flex">
+      <div style={{ border: "1px solid #FFFFFF1A" }} className="w-[60%] md:w-[65%] 2xl:w-[60%] flex">
         <div className="w-[25%] lg:w-[30%]">
           <Navitem text={"ABOUT"} number={"001"} />
         </div>
