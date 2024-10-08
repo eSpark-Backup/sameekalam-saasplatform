@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
 
-          <div className="absolute sm:right-5 z-0 opacity-30 sm:opacity-100 bottom-20 sm:m-0 m-4">
+          <div className="absolute sm:right-5 lg:z-10 z-0 opacity-30 sm:opacity-100 bottom-20 sm:m-0 m-4">
             <VideoBanner videoBanner={videoBanner} />
           </div>
         </div>
