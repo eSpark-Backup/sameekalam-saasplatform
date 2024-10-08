@@ -45,7 +45,7 @@ export default function Home() {
     <>
       <div className="relative">
         <Navbar />
-        <div className="bg-black h-screen relative">
+        <div className="bg-black h-[calc(100vh-128px)] relative">
           <div className="absolute left-5 top-40">
             {/* MENUS */}
             <Menu menus={menus} pathname={pathname} />
