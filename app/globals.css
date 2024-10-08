@@ -2,3 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+
+.spaceship {
+    /* background: url(../assets/spaceship.png); */
+    /* background: radial-gradient(circle, #00FFE6, transparent), url(../assets/spaceship.png); */
+    width: 1139px;
+    height: 840px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spaceship .space {
+    height: 840px
+}
+
+.circle {
+    position: absolute;
+    top: 570px;
+    z-index: -5;
+    height: 390px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading {
+    position: absolute;
+    z-index: -1;
+    bottom: 160px;
+    left: -105px;
+}
+
+.heading .heading2 {
+    position: absolute;
+    top: 180px;
+    left: 270px;
+}
+
+.heading {
+    position: absolute;
+    z-index: -1;
+    bottom: 160px;
+    left: -105px;
+}
+
+.title1-no {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    line-height: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF4D;
+    z-index: 11;
+}
+
+.title2-no {
+    position: absolute;
+    top: 180px;
+    left: 215px;
+    line-height: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF4D;
+    z-index: 11;
+}
+
+.click {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
